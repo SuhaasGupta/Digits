@@ -12,4 +12,4 @@ The training data set, (train.csv), has 785 columns. The first column, called "l
 Each pixel column in the training set has a name like pixelx, where x is an integer between 0 and 783, inclusive. To locate this pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where 
 i and j are integers between 0 and 27, inclusive. Then pixelx is located on row i and column j of a 28 x 28 matrix, (indexing by zero).
 
-If you dont have the computational power 
+If you dont have the computational power just use the less number of epochs.I used 30 epochs to get higher accuracy 
